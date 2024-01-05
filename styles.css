@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: linear-gradient(to right, #f0f8ff, #e0ffff);
+    border-radius: 50%; /* Circular shape */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid #3494e6;
+    width: 350px; /* Increased width for a larger circular container */
+    height: 350px; /* Increased height for a larger circular container */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center items vertically */
+  }
+  
+  form {
+    text-align: center;
+    width: 100%;
+  }
+  
+  h2 {
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input {
+    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 25px;
+    background-color: #f8f8f8;
+    color: #333;
+    width: calc(100% - 100px);
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 12px #3494e6;
+  }
+  
+  button {
+    font-size: 16px;
+    background: linear-gradient(to right, #ff7b54, #ff5733);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px; /* Added margin to move the button downward */
+  }
+  
+  button:hover {
+    background-color: #ff5733;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    perspective: 1000px;
+  }
+  
+  .form-control {
+    transform: rotateX(20deg);
+  }
+  
